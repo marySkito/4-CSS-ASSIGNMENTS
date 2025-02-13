@@ -1,0 +1,42 @@
+/* styles.css */
+/* styles.css */
+body {
+    background-color: #1a1a1a; /* Dark background */
+    font-family: Arial, sans-serif;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
+    padding: 20px 20px 30px; /* Space for body */
+    max-width: 400px;
+    position: relative;
+  }
+  
+  .card-header {
+    background-color: #c71b71; /* Bright pink header */
+    color: #1a1a1a;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+  }
+  
+  .card-body {
+    font-size: 1rem;
+    line-height: 1.6; /* Better readability */
+    color: #333;
+    text-align: center; /* Centered text */
+    margin-top: 40px; /* Space below the header */
+  }

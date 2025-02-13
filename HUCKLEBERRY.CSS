@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.top {
+  width: 1280px;
+  height: 282px;
+  border-bottom: 8px;
+  background-color: #ffffff;
+  border-color: #999999;
+  /* width: 180px; */
+}
+
+.HuckleberryText h1 {
+  width: 180px;
+  height: 38px;
+  margin-top: 96px;
+  margin-left: 264px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.hp1 {
+  width: 415px;
+  height: 60px;
+  margin-top: 4%;
+  margin-left: 264px;
+}
+
+.hp1 p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.passion {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #009966;
+}
+
+
+.hp2 {
+  width: 415px;
+  height: 60px;
+  top: 258px;
+  margin-left: 264px;
+}
+
+.hp2 p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+.content{
+  background-color: #666666;
+  width: 100%;
+  height: 450px;
+  top: 382px;
+  /* position: relative; */
+  
+}
+
+.whiteBox {
+  width: 808px;
+  height: 312px;
+  top: 454px;
+  left: 232px;
+  border-bottom: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px 0px #000000;
+  position: absolute;
+}
+
+.yellowbox {
+  position: relative;
+  height: 60px;
+  width: 398px;
+  top: 1.5%;
+  left: -7px;
+  border-bottom: 8px;
+  background-color: #ffbf00;
+  /* border-color: #cc9900; */
+  border-bottom: 8px solid #cc9900;
+}
+
+.wealth{
+  display: inline;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28.8px;
+  padding-left: 5%;
+  color: #000000;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 95%;
+}
+
+.modern {
+  position: relative;
+  display: inline;
+  padding-left: 240px;
+}
+
+.whiteBox p {
+  padding-top: 2%;
+  padding-left: 4%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+  .top{
+    width: 390px;
+    height: 382px;
+  }
+
+  .HuckleberryText h1{
+    width: 180px;
+    height: 38px;
+    margin-top: 96px;
+    margin-left: 24px;
+    
+  }
+
+  .hp1{
+    min-width: 22%;
+    font-size: 18px;
+    height: 60px;
+    margin-top: 4%;
+    margin-left: 24px;
+    
+  }
+
+  .hp2 {
+    width: 342px;
+    height: 60px;
+    top: 258px;
+    margin-left: 24px;
+  }
+
+}
